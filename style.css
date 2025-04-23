@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    background: #f8f8f8;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 150px;
+    margin-bottom: 1rem;
+  }
+  
+  select,
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .status {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+  }
+  
+  .status.ativo {
+    background-color: #d1fae5;
+    color: #065f46;
+  }
+  
+  .status.pausado {
+    background-color: #fee2e2;
+    color: #991b1b;
+  }
+  
