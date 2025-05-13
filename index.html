@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Controle Agente IA - SDR</title>
+  <link rel="stylesheet" href="/src/style.css"/>
+</head>
+<body>
+  <div class="card">
+    <img src="/logo.png" class="logo" alt="Logo da Metal Bauer"/>
+    <h2>Controle Agente IA - SDR</h2>
+
+    <input id="searchInput" type="text" placeholder="🔍 Buscar lead por telefone"/>
+    <select id="leadSelect">
+      <option value="">Selecione um lead…</option>
+    </select>
+    <div id="statusText"></div>
+    <button id="toggleBtn" disabled>Atualizar Status</button>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
